@@ -1,0 +1,68 @@
+body{
+    margin: 0 auto;
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+#icon{
+    background-image: url("../images/icon.png");
+    height: 100%;
+    /* max-width: 30px; */
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+}
+
+#icon-container{
+    height: 30px;
+    overflow: none;
+    margin: 0 auto;
+    align-content: center;
+    background-color: purple;
+}
+
+
+
+#image-list{
+    display: flex;
+    flex-flow: wrap;
+    top: 0;
+    
+}
+
+
+
+#image-card{
+    width: 30%;
+    margin: 10px;
+    /* padding: 1%; */
+    height: 250px;
+    background-color: lightgray;
+    text-align: center;
+    color: green;
+    
+}
+
+#image-card img{
+    height: 80%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#show-single{
+    z-index:2;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+
+}
+
+#single-image{
+    /* background-color: purple; */
+    position: absolute
+}
